@@ -4,14 +4,24 @@ using namespace std;
 class Employee
 {
 public:
+    void setName(string x)
+    {
+        name = x;
+    }
+    string getName()
+    {
+        return name;
+    }
+
+private:
     string name;
 };
 
 int main()
 {
     Employee bo;
-    bo.name = "Udaya";
+    bo.setName("Udaya");
 
-    cout << bo.name;
+    cout << bo.getName();
     return 0;
 }
