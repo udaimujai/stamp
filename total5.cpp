@@ -15,4 +15,4 @@ int main()
     }
     cout << "total nuber "<< total << endl;
 
-}
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
